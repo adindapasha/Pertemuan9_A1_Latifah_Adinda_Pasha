@@ -1,0 +1,17 @@
+def main():
+    # Deklarasi array untuk menyimpan angka-angka
+    angka = []
+
+    # Input 5 angka dari pengguna
+    for i in range(5):
+        angka.append(int(input("Masukkan angka ke-{}: ".format(i + 1))))
+
+    # Hitung rata-rata
+    rata_rata = sum(angka) / len(angka)
+
+    # Tampilkan hasil
+    print("Rata-rata:", rata_rata)
+
+
+if _name_ == "_main_":
+    main()

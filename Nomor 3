@@ -1,0 +1,10 @@
+def balik_urutan(array):
+    array_balik = array[::-1]
+    return array_balik
+
+
+array = [1, 3, 5, 7, 9]
+
+array_balik = balik_urutan(array)
+
+print(array_balik)
